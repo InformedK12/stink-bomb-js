@@ -1,0 +1,38 @@
+{
+  "name": "stink-bomb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/stink_bomb.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/ChalkSchools/stink-bomb-js.git"
+  },
+  "keywords": [
+    "stink",
+    "ci"
+  ],
+  "devDependencies": {
+    "chai": "latest",
+    "codeclimate-test-reporter": "latest",
+    "dirty-chai": "latest",
+    "istanbul": "latest",
+    "jscs": "latest",
+    "jshint": "latest",
+    "mocha": "latest",
+    "sinon": "latest",
+    "sinon-chai": "latest",
+    "travis-lint": "latest"
+  },
+  "dependencies": {
+    "moment": "latest"
+  },
+  "author": "Holman Gao <holman@golmansax.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChalkSchools/stink-bomb-js/issues"
+  },
+  "homepage": "https://github.com/ChalkSchools/stink-bomb-js"
+}
