@@ -5,7 +5,8 @@ script:
 - travis-lint .travis.yml
 - jscs .
 - jshint . --exclude-path .gitignore
-- npm test
+- make test
+- make codeclimate
 cache:
   directories:
   - node_modules
