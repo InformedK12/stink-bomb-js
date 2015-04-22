@@ -3,8 +3,6 @@
 var chai = require('chai');
 chai.use(require('dirty-chai'));
 var expect = chai.expect;
-var sinon = require('sinon');
-chai.use(require('sinon-chai'));
 
 var moment = require('moment');
 var StinkBomb = require('../lib/stink_bomb');
