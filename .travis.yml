@@ -10,3 +10,6 @@ script:
 cache:
   directories:
   - node_modules
+env:
+  global:
+    secure: UYDgGRhmLFBEm+7y6+nZChc8wkfvsgM7wi46WDPdNft+IUKIOyx9pity3SoYA2tmT2Uu1Kt87VMHb4UYuqlTsStewUZZyHsq71XBDf6AdxMNe33zYuH3AWv3DyzN89wXoVnQI0qV+YqoZWvJOZW5KQAXOEC1+YhCv6+Zxh+wBgA=
