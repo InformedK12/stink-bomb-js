@@ -1,0 +1,27 @@
+{
+  "name": "stink-bomb",
+  "description": "Fail your CI when your JavaScript becomes stinky",
+  "license": "MIT",
+  "authors": ["Holman Gao <holman@golmansax.com>"],
+  "main": "dist/stink_bomb.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/ChalkSchools/stink-bomb-js.git"
+  },
+  "keywords": [
+    "stink",
+    "ci"
+  ],
+  "ignore": [
+    "lib/",
+    "test/",
+    "Makefile",
+    "coverage",
+    ".jshintrc",
+    ".jscsrc",
+    ".travis.yml"
+  ],
+  "dependencies": {
+    "moment": "latest"
+  }
+}
